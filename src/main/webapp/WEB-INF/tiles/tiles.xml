@@ -11,4 +11,14 @@
     <definition name="/admin/*" extends="admin-layout-tiles">
         <put-attribute name="content" value="/WEB-INF/jsp/views/admin/{1}.jsp" />
     </definition>
+
+    <!-- 고객 페이지 -->
+    <definition name="customer-layout-tiles" template="/WEB-INF/tiles/layout/customer-layout.jsp">
+        <put-attribute name="meta" value="/WEB-INF/jsp/common/customer-meta.jsp" />
+        <put-attribute name="content" value="" />
+    </definition>
+
+    <definition name="/" extends="customer-layout-tiles">
+        <put-attribute name="content" value="/WEB-INF/jsp/views/customer/main.jsp" />
+    </definition>
 </tiles-definitions>

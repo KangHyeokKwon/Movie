@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Common Start */
+html {
+  scrollbar-arrow-color: #a98624;
+  scrollbar-Track-Color: #eeeeee;
+  scrollbar-base-color: #eeeeee;
+  scrollbar-Face-Color: #a98624;
+  scrollbar-3dLight-Color: #dfdfdf;
+  scrollbar-DarkShadow-Color: #dfdfdf;
+  scrollbar-Highlight-Color: #dfdfdf;
+  scrollbar-Shadow-Color: #dfdfdf;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #bbbbbb; }
+::-webkit-scrollbar-thumb { background: #a98624; }
+::placeholder {
+  color: #bbb;
+}
+:-ms-input-placeholder {
+  color: #bbb;
+}
+::-ms-input-placeholder {
+  color: #bbb;
+}
+
+/* Common End */

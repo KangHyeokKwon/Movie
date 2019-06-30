@@ -1,4 +1,4 @@
-package com.jaebam.srping51movie.config;
+package com.jaebam.spring51movie.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

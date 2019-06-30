@@ -1,4 +1,4 @@
-package com.jaebam.srping51movie;
+package com.jaebam.spring51movie;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

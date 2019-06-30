@@ -1,4 +1,4 @@
-package com.jaebam.srping51movie;
+package com.jaebam.spring51movie;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
