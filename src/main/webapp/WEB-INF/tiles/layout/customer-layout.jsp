@@ -12,6 +12,7 @@
     <tiles:insertAttribute name="meta" />
 </head>
 <body>
+    <tiles:insertAttribute name="header" />
     <tiles:insertAttribute name="content" />
 </body>
 </html>

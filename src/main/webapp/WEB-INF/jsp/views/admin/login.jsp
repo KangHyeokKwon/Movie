@@ -11,7 +11,7 @@
     <div class="login-container">
         <div class="login-box">
             <div class="company-logo-box">
-                <img src="/resources/img/logo-wpay-c.png" alt="LOGO">
+                <img src="/resources/img/logo-wpay.png" alt="LOGO">
             </div>
 
             <div class="company-word">
