@@ -10,7 +10,7 @@
 
 <div class="wrap">
     <div class="swiper-background">
-        <div class="swiper-wrap">
+        <div class="swiper-wrap main-top-swiper">
             <div class="swiper-container">
                 <div class="swiper-type-wrap">
                     <div class="swiper-type fs0">
@@ -18,7 +18,7 @@
                         <a href="#"><span>추천수</span></a>
                     </div>
                 </div>
-                <div class="swiper-title">현재 상영작(예매율 순)</div>
+                <div class="swiper-title">현재 상영작</div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <span>1</span>
@@ -83,14 +83,125 @@
             </div>
         </div>
     </div>
+
+    <div class="main-category-wrap">
+        <div class="main-category-container">
+            <div class="main-category-items">
+                <a href="#">
+                    <img src="/resources/img/main-icon01.jpg">
+                    <span>오시는길</span>
+                </a>
+            </div>
+            <div class="main-category-items">
+                <a href="#">
+                    <img src="/resources/img/main-icon02.jpg">
+                    <span>자주묻는질문</span>
+                </a>
+            </div>
+            <div class="main-category-items">
+                <a href="#">
+                    <img src="/resources/img/main-icon03.jpg">
+                    <span>상영시간표</span>
+                </a>
+            </div>
+            <div class="main-category-items">
+                <a href="#">
+                    <img src="/resources/img/main-icon04.jpg">
+                    <span>예매확인/취소</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-service-wrap">
+        <div class="main-service-container">
+            <div class="main-service-box">
+                <div class="main-service-items">
+                    <div class="service-title"><a href="#">공지사항</a></div>
+                    <table>
+                        <tr>
+                            <td><a href="#">공지사항5공지사항5공지사항5공지사항5공지사항5공지사항5공지사항5공지사항5</a></td>
+                            <td>2019-07-02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">공지사항4</a></td>
+                            <td>2019-07-02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">공지사항3</a></td>
+                            <td>2019-07-02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">공지사항2</a></td>
+                            <td>2019-07-02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">공지사항1</a></td>
+                            <td>2019-07-02</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="main-service-items">
+                    <div class="service-title"><a href="#">Q & A</a></div>
+                    <table>
+                        <tr>
+                            <td><a href="#">질문3</a></td>
+                            <td>2019-07-02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">질문2</a></td>
+                            <td>2019-07-02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">질문1</a></td>
+                            <td>2019-07-02</td>
+                        </tr>
+                    </table>
+                    <div class="service_center-wrap">
+                        <div class="service_center-container">
+                            <div class="service_center-imgbox">
+                                <img src="/resources/img/service-icon.png">
+                            </div>
+                            <div class="service_center-word">
+                                <span>고객센터</span> <br />
+                                <span>02-123-4567</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-footer-banner-frame">
+        <div class="swiper-container" id="main-footer-banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="http://scinema.org/wp-content/uploads/2019/07%EB%9D%BC%EC%9D%B4%EC%98%A8%ED%82%B9.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://scinema.org/wp-content/uploads/2019/06%EB%B9%84%EC%8A%A4%ED%8A%B8_%EC%9E%91%EC%9D%80%EC%98%81%ED%99%94%EA%B4%80960x120.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.main-top-swiper .swiper-container', {
         autoplay: {
             delay: 3500,
             disableOnInteraction: false,
         },
         slidesPerView: 'auto',
         centeredSlides: false,
+    });
+
+    var bannerSwiper = new Swiper('#main-footer-banner', {
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        effect: "fade",
     });
 </script>

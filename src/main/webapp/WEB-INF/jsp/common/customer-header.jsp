@@ -62,6 +62,9 @@
                 <a href="" title="너에게내마음을"><i class="im im-gift-card"></i><span>너에게내마음을</span></a>
             </li>
             <li>
+                <a href="" title="사용자리뷰"><i class="im im-newsletter"></i><span>사용자리뷰</span></a>
+            </li>
+            <li>
                 <a href="" title="영화관소개"><i class="im im-newspaper-o"></i><span>영화관소개</span></a>
             </li>
         </ul>

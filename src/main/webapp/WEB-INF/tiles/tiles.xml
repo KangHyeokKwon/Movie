@@ -18,6 +18,7 @@
         <put-attribute name="meta" value="/WEB-INF/jsp/common/customer-meta.jsp" />
         <put-attribute name="header" value="/WEB-INF/jsp/common/customer-header.jsp" />
         <put-attribute name="content" value="" />
+        <put-attribute name="footer" value="/WEB-INF/jsp/common/customer-footer.jsp" />
     </definition>
 
     <definition name="/customer/*" extends="customer-layout-tiles">

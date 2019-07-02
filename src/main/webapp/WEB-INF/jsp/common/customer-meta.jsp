@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="/resources/css/customer/swiper.min.css">
 <link rel="stylesheet" href="/resources/css/customer/main.css">
 <link rel="stylesheet" href="/resources/css/customer/main-media.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap">
 
 <!-- JS -->
 <script src="/resources/js/common/jquery-3.3.1.min.js"></script>
