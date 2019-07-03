@@ -50,23 +50,50 @@
 </nav>
 
 <div class="main-menu-wrap">
-    <div class="main-menu-container fs0">
+    <ul class="main-menu-container fs0">
         <ul>
             <li>
-                <a href="" title="영화"><i class="im im-users"></i><span>영화</span></a>
+                <a href="" title="영화" class="current"><i class="im im-users"></i><span>영화</span></a>
+                <ul>
+                    <li><a href="#">현재 상영작</a></li>
+                    <li><a href="#">상영 예정작</a></li>
+                </ul>
             </li>
             <li>
                 <a href="" title="예매"><i class="im im-rocket"></i><span>예매</span></a>
+                <ul>
+                    <li><a href="#">예매하기</a></li>
+                    <li><a href="#">상영 시간표</a></li>
+                </ul>
             </li>
             <li>
                 <a href="" title="너에게내마음을"><i class="im im-gift-card"></i><span>너에게내마음을</span></a>
+                <ul>
+                    <li><a href="#">상품보기</a></li>
+                </ul>
             </li>
             <li>
                 <a href="" title="사용자리뷰"><i class="im im-newsletter"></i><span>사용자리뷰</span></a>
+                <ul>
+                    <li><a href="#">영화리뷰</a></li>
+                    <li><a href="#">상품리뷰</a></li>
+                </ul>
             </li>
             <li>
                 <a href="" title="영화관소개"><i class="im im-newspaper-o"></i><span>영화관소개</span></a>
+                <ul>
+                    <li><a href="#">영화관소개</a></li>
+                    <li><a href="#">좌석배치도</a></li>
+                    <li><a href="#">오시는길</a></li>
+                </ul>
             </li>
         </ul>
-    </div>
+    </ul>
 </div>
+<div class="main-menu-open"></div>
+
+<script>
+    $(document).ready(function() {
+
+    });
+</script>
