@@ -47,7 +47,12 @@
             </ul>
         </div>
     </div>
+
+    <%@ include file="customer-include-mobile.jsp" %>
 </nav>
+
+<!-- mobile modal background -->
+<div class="mobile-modal-background"></div>
 
 <div class="main-menu-wrap">
     <ul class="main-menu-container fs0">
@@ -90,10 +95,18 @@
         </ul>
     </ul>
 </div>
-<div class="main-menu-open"></div>
+<div class="main-menu-open disnone"></div>
 
 <script>
     $(document).ready(function() {
+        $('.mobile-container').on('click', function () {
+            $('.mobile-modal-background').fadeIn(150);
+            $('.mobile-nev').fadeIn(150);
+        });
 
+        $('.mobile-modal-background').on('click', function() {
+           $(this).fadeOut(150);
+           $('.mobile-nev').fadeOut(150);
+        });
     });
 </script>

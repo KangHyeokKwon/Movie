@@ -62,6 +62,9 @@
     .nav-container {
         width: 90%;
     }
+    .mobile-wrap {
+        display: block;
+    }
     .main-menu-wrap {
         display: none;
     }

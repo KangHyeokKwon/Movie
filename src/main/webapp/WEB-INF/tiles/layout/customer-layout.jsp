@@ -12,7 +12,6 @@
     <tiles:insertAttribute name="meta" />
 </head>
 <body>
-    <tiles:insertAttribute name="mobile" />
     <tiles:insertAttribute name="header" />
     <tiles:insertAttribute name="content" />
     <tiles:insertAttribute name="footer" />
